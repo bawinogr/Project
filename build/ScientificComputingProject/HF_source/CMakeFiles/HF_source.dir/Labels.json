@@ -1,0 +1,23 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/main.cpp"
+		},
+		
+		{
+			"file" : "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/hf_aux.cpp"
+		},
+		
+		{
+			"file" : "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/mp2_aux.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "HF_sourceLibs", "HF_sourceLibs" ],
+		"name" : "HF_source"
+	}
+}

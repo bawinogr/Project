@@ -1,0 +1,19 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeded with the following output:
+Change Dir: /export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3570494093/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3570494093.dir/build.make CMakeFiles/cmTryCompileExec3570494093.dir/build
+gmake[1]: Entering directory `/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+/export/apps/CMake/3.2.2/bin/cmake -E cmake_progress_report /export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3570494093.dir/src.c.o
+/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/icc   -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTryCompileExec3570494093.dir/src.c.o   -c /export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3570494093
+/export/apps/CMake/3.2.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3570494093.dir/link.txt --verbose=1
+/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/icc   -DC_SUPPORTS_DOLLAR    CMakeFiles/cmTryCompileExec3570494093.dir/src.c.o  -o cmTryCompileExec3570494093 -rdynamic 
+gmake[1]: Leaving directory `/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

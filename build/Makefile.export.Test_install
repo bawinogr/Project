@@ -1,0 +1,90 @@
+##############################################################################
+#
+# Make variables for use by Test clients. 
+#
+# Do not edit: This file was generated automatically by CMake.
+#
+##############################################################################
+
+
+## ---------------------------------------------------------------------------
+## Compilers used by Test build
+## ---------------------------------------------------------------------------
+
+Test_CXX_COMPILER=/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/icpc
+
+Test_C_COMPILER=/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/icc
+
+Test_Fortran_COMPILER=/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/ifort
+
+
+## ---------------------------------------------------------------------------
+## Compiler flags used by Test build
+## ---------------------------------------------------------------------------
+
+Test_CXX_COMPILER_FLAGS= -O3 -DNDEBUG
+
+Test_C_COMPILER_FLAGS= -O3 -DNDEBUG
+
+Test_Fortran_COMPILER_FLAGS= -O3
+
+## Extra link flags (e.g., specification of fortran libraries)
+Test_EXTRA_LD_FLAGS=
+
+## This is the command-line entry used for setting rpaths. In a build
+## with static libraries it will be empty. 
+Test_SHARED_LIB_RPATH_COMMAND=
+Test_BUILD_SHARED_LIBS=FALSE
+
+Test_LINKER=/usr/bin/ld
+Test_AR=/usr/bin/ar
+
+
+## ---------------------------------------------------------------------------
+## Set library specifications and paths 
+## ---------------------------------------------------------------------------
+
+## The project version number
+Test_VERSION=0.0.0
+
+## The project include file directories.
+Test_INCLUDE_DIRS= -I/usr/local/include
+
+## The project library directories.
+Test_LIBRARY_DIRS= -L/usr/local/lib
+
+## The project libraries.
+Test_LIBRARIES= -lHF_source -lHF_source -lHF_source
+
+## The project tpl include paths
+Test_TPL_INCLUDE_DIRS=
+
+## The project tpl library paths
+Test_TPL_LIBRARY_DIRS=
+
+## The project tpl libraries
+Test_TPL_LIBRARIES=
+
+## ---------------------------------------------------------------------------
+## MPI specific variables
+##   These variables are provided to make it easier to get the mpi libraries
+##   and includes on systems that do not use the mpi wrappers for compiling
+## ---------------------------------------------------------------------------
+
+Test_MPI_LIBRARIES=
+Test_MPI_LIBRARY_DIRS=
+Test_MPI_INCLUDE_DIRS=
+Test_MPI_EXEC=
+Test_MPI_EXEC_MAX_NUMPROCS=
+Test_MPI_EXEC_NUMPROCS_FLAG=
+
+## ---------------------------------------------------------------------------
+## Set useful general variables 
+## ---------------------------------------------------------------------------
+
+## The packages enabled for this project
+Test_PACKAGE_LIST= Test HF_source
+
+## The TPLs enabled for this project
+Test_TPL_LIST=
+

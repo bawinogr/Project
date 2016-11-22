@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/export/zgid/bawinogr/Test/test/HFtest.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "TestExes", "TestExes" ],
+		"name" : "Test_HFtest"
+	}
+}

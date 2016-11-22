@@ -1,0 +1,2 @@
+/usr/bin/ar cq libHF_source.a  CMakeFiles/HF_source.dir/main.cpp.o CMakeFiles/HF_source.dir/hf_aux.cpp.o CMakeFiles/HF_source.dir/mp2_aux.cpp.o
+/usr/bin/ranlib libHF_source.a

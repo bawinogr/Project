@@ -1,0 +1,22 @@
+Start testing: Nov 21 22:39 EST
+----------------------------------------------------------
+Unable to find required file: /export/zgid/bawinogr/Test/build/Test_HFtest.exe
+1/1 Testing: Test_HFtest
+1/1 Test: Test_HFtest
+Command: ""
+Directory: /export/zgid/bawinogr/Test/build
+"Test_HFtest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Test_HFtest" end time: Nov 21 22:39 EST
+"Test_HFtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 21 22:39 EST
+
+Test =   0.00 sec
+
