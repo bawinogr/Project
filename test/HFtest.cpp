@@ -5,10 +5,10 @@
 #include <string.h>
 #include <stdio.h>
 //#include <lapacke.h>
-#include "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/Eigen/Dense"
-#include "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/Eigen/Eigenvalues"
-#include "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/Eigen/Cholesky"
-#include "/export/zgid/bawinogr/Test/ScientificComputingProject/HF_source/Eigen/Core"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Dense"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Eigenvalues"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Cholesky"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Core"
 #include "hf_aux.cpp"
 //#include "hf_main.cpp"
 

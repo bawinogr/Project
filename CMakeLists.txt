@@ -6,7 +6,6 @@ CMAKE_MINIMUM_REQUIRED(VERSION ${Test_TRIBITS_CMAKE_MINIMUM_REQUIRED})
 # Define project name and set up major options
 #
 INCLUDE(${CMAKE_SOURCE_DIR}/ProjectName.cmake)
-
 #Indicate to TriBITS that we might use Python
 SET(${PROJECT_NAME}_USES_PYTHON TRUE)
 

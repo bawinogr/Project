@@ -5,6 +5,10 @@
 #include <cstdlib> 
 #include <vector>
 #include <cmath>
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Dense"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Eigenvalues"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Cholesky"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Core"
 
 using namespace std;
 //////Here are the functions required for HF

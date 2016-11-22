@@ -4,6 +4,10 @@
 //#include <cstdio>
 #include "hf_aux.hpp"
 #include <string>
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Dense"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Eigenvalues"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Cholesky"
+#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Core"
 #include <string.h>
 #include <vector>
 #include <cmath>
