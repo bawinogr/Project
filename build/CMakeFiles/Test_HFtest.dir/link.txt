@@ -1,1 +1,0 @@
-/export/apps/Intel/composer_xe_2013.4.183/bin/intel64/icpc   -O3 -DNDEBUG   CMakeFiles/Test_HFtest.dir/test/HFtest.cpp.o  -o Test_HFtest.exe -rdynamic ScientificComputingProject/HF_source/libHF_source.a 

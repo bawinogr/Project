@@ -1,3 +1,0 @@
-/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/FortranCInterface.dir
-/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/symbols.dir
-/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/myfort.dir

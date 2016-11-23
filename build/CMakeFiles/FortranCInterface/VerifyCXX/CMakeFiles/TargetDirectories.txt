@@ -1,2 +1,0 @@
-/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir
-/export/zgid/bawinogr/Test/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir
