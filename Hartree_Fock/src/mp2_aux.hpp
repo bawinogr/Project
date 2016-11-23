@@ -7,10 +7,10 @@
 #include <cstdlib> 
 #include <vector>
 #include <cmath>
-#include "Eigen/Eigen/Dense"
-#include "Eigen/Eigen/Eigenvalues"
-#include "Eigen/Eigen/Cholesky"
-#include "Eigen/Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 using namespace std;
 //////Here are the functions required for HF
 

@@ -6,10 +6,10 @@
 #include <cmath>
 #include <ctime>
 #include <cstdlib>
-#include "Eigen/Eigen/Dense"
-#include "Eigen/Eigen/Eigenvalues"
-#include "Eigen/Eigen/Cholesky"
-#include "Eigen/Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 #include <iomanip>
 
 

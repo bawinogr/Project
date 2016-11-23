@@ -10,10 +10,10 @@
 #include <string.h>
 #include <stdio.h>
 //#include <lapacke.h>
-#include "Eigen/Dense"
-#include "Eigen/Eigenvalues"
-#include "Eigen/Cholesky"
-#include "Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 #include "hf_aux.cpp"
 //#include "mp2_aux.cpp"
 

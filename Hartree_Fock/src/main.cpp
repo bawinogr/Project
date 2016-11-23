@@ -8,10 +8,10 @@
 #include <string>
 #include <string.h>
 #include <stdio.h>
-#include "Eigen/Eigen/Dense"
-#include "Eigen/Eigen/Eigenvalues"
-#include "Eigen/Eigen/Cholesky"
-#include "Eigen/Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 #include "hf_aux.cpp"
 #include "mp2_aux.cpp"
 
