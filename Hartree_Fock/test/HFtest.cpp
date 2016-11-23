@@ -5,10 +5,10 @@
 #include <string.h>
 #include <stdio.h>
 //#include <lapacke.h>
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Dense"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Eigenvalues"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Cholesky"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 #include "hf_aux.cpp"
 //#include "hf_main.cpp"
 
@@ -51,7 +51,7 @@ void test_HF_en(){
 
   int ao = 7;
   int occ = 5;
-  char *path ="/export/zgid/bawinogr/Test/test/Water_STO-3G";
+  char *path ="Water_STO-3G";
   Matrix V = Matrix::Zero(ao*ao,ao*ao);
   Matrix C_mo = Matrix::Zero(ao,ao);
   Matrix evals = Matrix::Zero(ao,ao);
@@ -98,7 +98,7 @@ void test_dens_mat(){
 void test_En_nuc(){
   int ao = 7;
   int occ = 5;
-  char *path = "/export/zgid/bawinogr/Test/test/Water_STO-3G";
+  char *path = "Water_STO-3G";	
 
 
   double En_nuc = read_nuc_en(path);

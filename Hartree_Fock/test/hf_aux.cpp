@@ -4,10 +4,10 @@
 //#include <cstdio>
 #include "hf_aux.hpp"
 #include <string>
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Dense"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Eigenvalues"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Cholesky"
-#include "../ScientificComputingProject/HF_source/Eigen/Eigen/Core"
+#include "Dense"
+#include "Eigenvalues"
+#include "Cholesky"
+#include "Core"
 #include <string.h>
 #include <vector>
 #include <cmath>
@@ -26,9 +26,10 @@ double read_nuc_en(char* Path)
    name=ss +"/enuc.dat";
    double nuc_en;
    std::ifstream nuc_ener;
+   
    nuc_ener.open(name.c_str());
    if (!nuc_ener.is_open()) {
-     cout << "Error: input file nuc_ener cannot open"<< endl;
+     cout << "Error: input file" << name.c_str() <<"cannot open"<< endl;
    }
    while(!nuc_ener.eof()){
       nuc_ener >> nuc_en;

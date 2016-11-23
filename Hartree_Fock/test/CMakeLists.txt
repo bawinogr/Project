@@ -1,9 +1,6 @@
-TRIBITS_PACKAGE(Test)
-
 TRIBITS_ADD_EXECUTABLE_AND_TEST(
   HFtest
   SOURCES
-      /export/zgid/bawinogr/Test/test/HFtest.cpp
+      HFtest.cpp
 )
 
-TRIBITS_PACKAGE_POSTPROCESS()
