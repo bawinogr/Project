@@ -1,0 +1,75 @@
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <iomanip>
+#include <cstdlib>
+#include <cmath>
+#include <vector>
+#include <string>
+#include <string.h>
+#include <stdio.h>
+#include "Eigen/Eigen/Dense"
+#include "Eigen/Eigen/Eigenvalues"
+#include "Eigen/Eigen/Cholesky"
+#include "Eigen/Eigen/Core"
+#include "hf_aux.cpp"
+#include "mp2_aux.cpp"
+
+using namespace std;
+
+typedef Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor> Matrix;
+//typedef std::vector<vector<double> > Real_Matrix;
+//typedef std::vector<vector<vector<vector<double> > > > Real_4dMatrix;
+
+
+int main(int argc, char* argv[])
+{
+//Assuming restricted hartree fock, read in arguments from commandline
+
+   int ao;
+   int occ;
+   char* Path;
+
+   if (argc >1){
+     for (int i=1; i<7; i=i+2){
+       if (strncmp(argv[i],"-ao",3)==0) {
+         ao =  atoi(argv[i + 1]);
+       } 
+       else if (strncmp(argv[i],"-occ",4)==0) {
+	 occ = atoi(argv[i + 1]);
+       } 
+       else if(strncmp(argv[i], "-path",5)==0) {
+	 Path = argv[i + 1];
+       }
+       else {
+	 std::cout << "The most common command-line options are: '-ao 7 -occ 5 -path Water_STO-3G'\n Try again with new input parameters......\n Now exiting. " << std::endl;
+	 exit(0);
+       }
+     }
+   }
+   else{
+     std::cout << "Too few command line arguments. The most common command-line options are: '-ao 7 -occ 5 -path Water_STO-3G'\n Try again with command line arguments. \n Now exiting." << std::endl;
+     exit(0);
+   }
+
+   std::cout << "Initial Values" << std::endl;
+   std::cout << "\t" << "ao:     " << ao << std::endl;
+   std::cout << "\t" << "occ:    " << occ << std::endl;
+   std::cout << "\t" << "Path:   " << Path << std::endl;
+   
+   Matrix C_mo = Matrix::Zero(ao,ao);
+   Matrix V = Matrix::Zero(ao*ao,ao*ao);
+   Matrix evals = Matrix::Zero(ao,ao);
+   double En_total = 0;
+   double Emp2 = 0;
+
+   En_total = hf_main(ao, occ, Path, V, C_mo, evals);
+
+   std::cout << "Beginning MP2" <<  std::endl;
+   
+   Emp2 = mp2_main(ao, occ, Path, V, C_mo, evals, En_total);
+
+   return 0;
+}
+
+

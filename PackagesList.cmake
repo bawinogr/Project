@@ -1,4 +1,4 @@
 #Initially no packages
 TRIBITS_REPOSITORY_DEFINE_PACKAGES(
-  Test  test PT
+ Hartree_Fock Hartree_Fock PT 
 )

@@ -31,7 +31,7 @@ INCLUDE(${${PROJECT_NAME}_TRIBITS_DIR}/TriBITS.cmake)
 #
 #Enable Tests always
 #
-SET(${PROJECT_NAME}_ENABLE_Test ON CACHE BOOL "")
+SET(${PROJECT_NAME}_ENABLE_Hartree_Fock ON CACHE BOOL "")
 SET(TPL_ENABLE_MPI OFF CACHE BOOL "")
 #
 #Process the TriBITS Project
